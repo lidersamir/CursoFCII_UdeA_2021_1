@@ -1,0 +1,5 @@
+Tarea1.
+Por favor, haga el ejercicio 9 de la sección 3.6 del texto guiá.
+
+"El perímetro, el área de superficie aproximada y el volumen aproximado de una
+alberca están dados por las siguientes fórmulas: ............"
