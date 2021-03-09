@@ -6,30 +6,11 @@ Por favor, haga el ejercicio 9 de la sección 3.6 del texto guia */
 #include<iomanip>
 using namespace std;
 
+
 int main()
 {
 	
 
-/*  PRUEBA RAPIDA DEL ALGORITMO
-	
-	//se definen las Varibles del problema
-	double largo, ancho, profundidad;
-	
-	//entrada de las variables
-	cout <<"Por favor ingrese primero el largo, luego el ancho y finalmente la profundidad:\n";
-	cin >> largo;
-	cin >> ancho;
-	cin >> profundidad;
-	
-	//Calculos requeridos
-	double LxA = largo*ancho; //secuencia sugerida por el ejercicio
-	double LtA = largo+ancho;
-	
-	double perimetro = 2*LtA;
-	double volumen = LxA*profundidad;
-	double areaSp = 2*LtA*profundidad + LxA; */
-	
-	////se definen las Varibles del problema
 	double largo, ancho, profundidad, LxA, LtA, perimetro, volumen, areaSp;
 	
 	
