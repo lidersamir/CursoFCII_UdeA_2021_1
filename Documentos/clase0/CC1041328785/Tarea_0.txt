@@ -1,0 +1,23 @@
+########Tarea_0###########
+
+¿Qué es una clase? 
+
+Lo he escuchado mencionar sin embargo no tengo clara la idea.
+
+
+¿Qué es la programación orientada a objetos?
+
+Según entiendo, se programa en base a un conjunto de unidades (objetos) los cuales
+poseen ciertas "caracteristicas" y "funcionalidades" dentro del código. Haciendo el simil 
+de una particula en un sistema. 
+
+-Particual (objeto)
+-Caracteristicas (geometría, masa, tamaño....)
+-Las Funcionalidades (cinemática, dinámica....) son definidas según lo requiera el 
+código (plateamiento del sistema físico)
+
+
+Escriba un programa que defina una función, la cual suma dos números:
+
+Aunque ya he manejado c++ antes, en estos momentos no puedo llevar a cabo 
+dicha tarea sin un ejercicio de repaso sobre las bases de c++.
