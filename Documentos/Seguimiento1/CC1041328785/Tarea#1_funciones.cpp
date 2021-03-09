@@ -1,4 +1,4 @@
-//en esta version del codigo se llena la tabla con la ayuda de funciones
+//en esta version del codigo para la tarea#1 se llena la tabla con la ayuda de funciones
 #include<iostream>
 #include<cmath>
 #include<iomanip>
