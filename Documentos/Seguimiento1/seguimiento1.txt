@@ -3,3 +3,23 @@ Por favor, haga el ejercicio 9 de la sección 3.6 del texto guiá.
 
 "El perímetro, el área de superficie aproximada y el volumen aproximado de una
 alberca están dados por las siguientes fórmulas: ............"
+
+
+Tarea2.
+El factorial de un entero "n" no negativo se escribe como n! (n factorial) y se define de la siguiente manera:
+n! = n · (n – 1) · (n – 2) · . . . · 1 ( para valores de n mayores o iguales a 1)
+y
+n! = 1 ( para n = 0 o n = 1).
+
+Unsando las tecnicas de programcion orienta a objetos (POO) que hemos estudiado, cree una clase que nos devuleva el valor de sen(x):
+
+sen(x) = x - (x^3/3!) + (x^5/5!) -  (x^7/7!) +  (x^9/9!) - .......
+
+Su clase debe tener almenos las siguientes caracteristicas:
+dos variables privadas: el valor de "x" y "N" la presicion (el numero de terminos de la serie).
+Debe tener un constructor.
+Ademas debe tener dos funciones mas:
+a) una que lea un entero no negativo, que calcule su factorial.
+b) una que calcule el valor de sen(x).
+Finalmente debe tener una funcion que muestre el valor de sen(x)
+
