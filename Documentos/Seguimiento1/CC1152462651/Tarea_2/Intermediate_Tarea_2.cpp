@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<cmath>
 #include<iomanip>
-#include "Seno.h"
+#include "Tarea_2.h"
 
 using namespace std;
 
@@ -14,6 +14,7 @@ Seno::Seno(float variable, int number_of_terms){
 
 int Seno::factorial(int n){
 	int fact=1;
+	
 	for(int k=1;k<=n;k++){
 		fact=fact*k;
 	}

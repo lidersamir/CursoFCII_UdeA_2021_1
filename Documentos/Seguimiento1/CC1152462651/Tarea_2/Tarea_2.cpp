@@ -1,7 +1,7 @@
 #include<iostream>
 #include<iomanip>
 #include<stdlib.h>
-#include "Seno.h"
+#include "Tarea_2.h"
 
 using namespace std;
 
