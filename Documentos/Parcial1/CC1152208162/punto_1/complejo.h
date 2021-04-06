@@ -1,7 +1,7 @@
 #include <string>
 
-// Complejo class definition
-class Complejo{
+class Complejo{ //Definición de la clase
+	
 	public:
 	Complejo( double, double ); //Constructor
 	
@@ -14,7 +14,7 @@ class Complejo{
 	void Imprimir(); //Para imprimir el resultado
 	
 	private:
-	void asignarDatos(double, double); //Para asignar los valores
 	double parteReal; //Variable para la parte real
 	double parteImaginaria; //Variable para la parte imaginaria
+	void asignarDatos(double, double); //Para asignar los valores
 	};    

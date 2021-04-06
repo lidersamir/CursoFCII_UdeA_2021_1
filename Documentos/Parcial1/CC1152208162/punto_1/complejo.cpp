@@ -21,11 +21,11 @@ double Complejo::obtenerParteImaginaria(){ //Muestra la parte imaginaria
 	return parteImaginaria; 
 	}
 
-Complejo Complejo::Suma(Complejo C){ //Se define la suma de dos complejos
+Complejo Complejo::Suma(Complejo C){ //Se define la suma de dos complejos, a las partes del complejo se le suman las del otro complejo "C"
 	return Complejo(parteReal + C.parteReal, parteImaginaria + C.parteImaginaria); 
 	}
-	
-Complejo Complejo::Resta(Complejo C){ //Se define la resta de dos complejos
+
+Complejo Complejo::Resta(Complejo C){ //Se define la resta de dos complejos, a las partes del complejo se le restan las del otro complejo "C"
 	return Complejo(parteReal - C.parteReal, parteImaginaria - C.parteImaginaria); 
 	}
 
@@ -35,4 +35,4 @@ double Complejo::Norma(){ //Se define la norma de un número complejo
 
 void Complejo::Imprimir(){ //Para mostrar los resultados en el formato de un número imaginario
 	cout << obtenerParteReal() <<" + "<< obtenerParteImaginaria() << "i" << endl;
-}
+	}

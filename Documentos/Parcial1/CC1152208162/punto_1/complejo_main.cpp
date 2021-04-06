@@ -19,7 +19,6 @@ int main(){
 	cout << "Además, su norma es: ";
 	c2.Norma();
 	
-	
 	Complejo c3= c1.Suma(c2); //Se calcula la suma
 	Complejo c4= c1.Resta(c2); //Se calcula la resta
 	
@@ -27,5 +26,6 @@ int main(){
 	c3.Imprimir();
 	cout << "y su resta es: ";
 	c4.Imprimir();
+	
 	return 0; 
 	} 
