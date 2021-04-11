@@ -7,11 +7,10 @@
 
 using namespace std;
 
-// inicializacion de la funciones craps, lanzar dados y apostar
+// inicializacion de la funciones craps, lanzar dados 
 
 int tirarDados();
 int craps();
-//float apostar(float, float, int);
 void presentador(float, float, int);
 
 //Entorno de usuario
