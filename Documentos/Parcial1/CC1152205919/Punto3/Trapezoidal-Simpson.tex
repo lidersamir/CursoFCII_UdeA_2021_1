@@ -1,0 +1,61 @@
+
+*************************************************************TRAPEZOIDAL************************************************************
+
+Este método consiste en encontrar el área bajo una curva haciendo particiones del mismo tamaño y aproximando la curva mediante lineas que conectan los puntos sobre la grafica evaluados en los extremos de los intervalos. En la figura AproximaciónTrapezoidal dentro de la carpeta se puede ver mas claramente esta aproximación.
+Es claro que finalmente se tiene una colección de trapecios, para los cuales el área es: La suma de la base mayor mas la base menor por la altura medios --> (B+b).h/2
+
+Teniendo en cuenta que necesitamos encontrar el área total, sumamos el área de cada trapecio y así obtenemos el área total, para esto debemos tener en cuenta la siguiente información.
+
+Sea f(x) la función que se quiere integrar, a el punto inicial, b el punto final y n el numero de intervalos en los que se parte el intervalo (a,b), entonces:
+
+dx=(b-a)/n ---> Longitud de cada intervalo.
+xi=a+i*dx ---> Cálculo de los extremos de los subintervalos
+f(xi) ---> Función evaluada en los extremos de los subintervalos
+
+El área de un trapecio es:
+
+ai=(dx/2)*(f(xi)+f(xi+1))
+
+Por lo tanto, la suma de todos los trapecios será:
+
+A = (dx/2)*[f(x0)+f(x1)]+(dx/2)*[f(x1)+f(x2)]+...+(dx/2)*[f(x(n-1))+f(xn)]
+  = (dx/2)*[f(x0)+2*f(x1)+2*f(x2)+...+2*f(x(n-1))+f(xn)]
+
+*************************************************************SIMPSON************************************************************
+
+La regla se simpson también sirve para calcular áreas bajo curvas, pero la aproximación a la curva ya no se hace con rectas sino con parabolas. Para esto se toman dos particiones del intervalo consecutivas y se aproxima la curva a una parábola que pasa por la función evaluada en los tres extremos de intervalo. La figura ReglaDeSimpson dentro de la carpeta ilustra esta aproximación.
+Es importante aclarar que para usar esta regla es necesario dividir el intervalo en un número par de subintervalos.
+
+Para encontrar el área bajo la curva, primero debemos saber cual es el area bajo una parábola para luego sumar el área de todas las parábolas. Para esto debemos tener en cuenta que cualquier parábola obedece a la ecuación Ax^2 + Bx + C. Integrando esta ecuación entre -h y h tenemos que el area bajo la curva es:
+ai = (h/3)*(2Ah^2+6C)
+
+Si pensamos especificamente en la parábola que pasa por los puntos (-h,y0),(0,y1) y (h,y2), entonces:
+y0 = A(-h)^2 + B(-h) + C = Ah^2 - Bh + C
+y1 = C
+y2 = A(h)^2 + B(h) + C = Ah^2 + Bh + C
+
+Por lo tanto
+
+ai = (h/3)*(2Ah^2+6C) = (h/3)*(y0+4y1+y2)
+
+De manera generalizada pasa para una parabola que pasa por los puntos (x0,y0),(x1,y1) y (x2,y2).
+
+Ahora bien, sea
+dx=(b-a)/n ---> Longitud de cada intervalo.
+xi=a+i*dx ---> Cálculo de los extremos de los subintervalos
+entonces ai = (dx/3)*(y0+4y1+y2)
+
+Si sumamos el área de todas las parábolas tenemos:
+
+Área = (dx/3)*(y0+4y1+y2) + (dx/3)*(y2+4y3+y4) + ... + (dx/3)*(y(n-2)+4y(n-1)+yn)
+     = (dx/3)*[y0 + 4y1 + 2*y2 + 4y3 + 2*y4 + ... + 2*y(n-2) + 4y(n-1) + yn]
+
+***************************************************************Bibliografia***********************************************************
+
+Stewart, J. Cálculo de una variable, Trascendentes tempranas. Sexta edición. Pag(496-502).
+
+
+
+
+
+
