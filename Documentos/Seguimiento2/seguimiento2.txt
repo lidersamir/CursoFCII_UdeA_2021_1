@@ -1,0 +1,7 @@
+Tarea1.
+Por favor, haga el ejercicio 7 de la sección 11.5 del texto guiá.
+
+"Escriba un programa que incluya dos funciones llamadas calc_prom() y va-
+rianza(). La función calc_prom() deberá calcular y devolver el promedio de
+los valores almacenados en el arreglo llamado valores_prueba ............"
+
