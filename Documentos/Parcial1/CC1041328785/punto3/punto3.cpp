@@ -33,11 +33,13 @@ int main()
 		I = I + (funtion(a) + funtion(a + dx))*dx*0.5; 
 		
 		a = a + dx;  
-	}
+		}
+	
+	
 	cout << "==================================================================================" <<endl;
 	cout << "El valor de la integral mediante el metodo del trapecio es : " << I <<endl;
 	cout << "==================================================================================" <<endl;
-	
+
 	//======================================================//
 	//===========REGLA DE SIMPSON (INTEGRACION)=============//
 	//======================================================//
@@ -86,5 +88,6 @@ int main()
 //Implementacion de la funcion a integrar
 float funtion(float X)
 {
-	return sqrt(pow(X, 3) + X);
+  return sqrt(pow(X, 3) + X);
+
 }
