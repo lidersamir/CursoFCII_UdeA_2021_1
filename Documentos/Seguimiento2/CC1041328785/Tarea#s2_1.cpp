@@ -1,4 +1,4 @@
-/* SOLUCION SEGUIMIENTO 2 TAREA#1
+/* SOLUCION SEGUIMIENTO 2_TAREA#1
 
 scriba un programa que incluya dos funciones llamadas calc_prom() y varianza(). 
 La función calc_prom() deberá calcular y devolver el promedio de
@@ -9,9 +9,8 @@ de los datos. La varianza se obtiene restando el promedio de cada valor en
 valores_prueba, elevando al cuadrado los valores obtenidos, sumándolos y dividiéndolos 
 entre el número de elementos en valores_prueba. Los valores devueltos
 de calc_promedio() y varianza() deberán desplegarse usando instrucciones
-cout en main().
+cout en main().*/
 
-*/
 #include <iostream>
 #include <cmath>
 
@@ -28,11 +27,10 @@ int main()
 	double varianza;
 	
 	//arreglo con los valores a trabajar
-	int Len = 14; 
-	double Valores_Prueba[] = {89, 95, 72, 83, 99, 54, 86, 75, 92, 73, 79, 75, 82, 73};
+	int Len = 14; //Tamaño del arreglo
+	double Valores_Prueba[] = {89, 95, 72, 83, 99, 54, 86, 75, 92, 73, 79, 75, 82, 73};//Arreglo
 	
 	//Calculo de promedio y varianza
-	
 	promedio = Calc_Prom(Valores_Prueba, Len);
 	varianza = Varianza(Valores_Prueba, Len);
 	
@@ -48,6 +46,7 @@ int main()
 	cout << "El promedio es: "  << promedio << endl;
 	cout << "Con varianza: "  << varianza << endl;
 	cout << "-------------------------------------------" <<endl;
+	
 	return 0;
 }
 
